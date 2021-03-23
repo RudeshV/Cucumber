@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-20T15:44:36.443Z",
+        "line": 12,
+        "name": "Validating the login screen",
+        "description": "",
+        "id": "validating-the-addactin-hotel-app;validating-the-login-screen;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12245491200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in the login page",
+            "match": {
+              "location": "LoginStepDefenitionClass.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 940355000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user passing the valid \"RudeshVA1\" and \"Newday@01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RudeshVA1\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Newday@01\"",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefenitionClass.user_passing_the_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4931097200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Login button",
+            "match": {
+              "location": "LoginStepDefenitionClass.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32605000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should enter in to the Search hotel screen",
+            "match": {
+              "location": "LoginStepDefenitionClass.user_should_enter_in_to_the_Search_hotel_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndtoendTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-20T15:44:54.804Z",
+        "line": 21,
+        "name": "Validating the Search Hotel Page",
+        "description": "",
+        "id": "validating-the-addactin-hotel-app;validating-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6797786900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is in the Login screen and after passing the valid credentials user will enter to the search hotel screen",
+            "match": {
+              "location": "SearchHotelStepDefinition.user_is_in_the_Login_screen_and_after_passing_the_valid_credentials_user_will_enter_to_the_search_hotel_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693557800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user passsing valid \"RudeshVA1\" and \"Newday@01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RudeshVA1\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Newday@01\"",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchHotelStepDefinition.user_passsing_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4432210200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Login button in login screen",
+            "match": {
+              "location": "SearchHotelStepDefinition.click_on_Login_button_in_login_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2129201400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "After entering into the search hotel screen user is selecting all the mandatory fields",
+            "match": {
+              "location": "SearchHotelStepDefinition.after_entering_into_the_search_hotel_screen_user_is_selecting_all_the_mandatory_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4747611800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Search button",
+            "match": {
+              "location": "SearchHotelStepDefinition.click_on_Search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndtoendTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-20T15:45:13.658Z",
+        "line": 23,
+        "name": "Validating the Select Hotel page",
+        "description": "",
+        "id": "validating-the-addactin-hotel-app;validating-the-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11485380700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is in the login page",
+            "match": {
+              "location": "SelectHotelStepDefenition.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12058251800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Passing valid details in the login and search hotel screen",
+            "match": {
+              "location": "SelectHotelStepDefenition.passing_valid_details_in_the_login_and_search_hotel_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326465400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "selecting the hotel in the screen",
+            "match": {
+              "location": "SelectHotelStepDefenition.selecting_the_hotel_in_the_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5253454200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click on continue",
+            "match": {
+              "location": "SelectHotelStepDefenition.click_on_continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndtoendTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-20T15:45:42.799Z",
+        "line": 29,
+        "name": "Validating the personal details screen",
+        "description": "",
+        "id": "validating-the-addactin-hotel-app;validating-the-personal-details-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12445662200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user is in the login screen",
+            "match": {
+              "location": "BookHotelStepDefenition.user_is_in_the_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15176824600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user passing valid details",
+            "match": {
+              "location": "BookHotelStepDefenition.user_passing_valid_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5343858800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicking on Book now",
+            "match": {
+              "location": "BookHotelStepDefenition.user_clicking_on_Book_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3259000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user should see",
+            "match": {
+              "location": "BookHotelStepDefenition.user_should_see()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndtoendTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the Addactin hotel App",
+    "description": "",
+    "id": "validating-the-addactin-hotel-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Testing.feature",
+    "tags": [
+      {
+        "name": "@EndtoendTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

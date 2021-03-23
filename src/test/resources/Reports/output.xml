@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="99.326277">
+<testcase classname="Validating the Addactin hotel App" name="Validating the login screen" time="18.354535">
+<system-out><![CDATA[Given user is in the login page.............................................passed
+When user passing the valid "RudeshVA1" and "Newday@01".....................passed
+And click on Login button...................................................passed
+Then user should enter in to the Search hotel screen........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating the Addactin hotel App" name="Validating the Search Hotel Page" time="18.85067">
+<system-out><![CDATA[Given user is in the Login screen and after passing the valid credentials user will enter to the search hotel screen.passed
+When user passsing valid "RudeshVA1" and "Newday@01"........................passed
+And Click on Login button in login screen...................................passed
+And After entering into the search hotel screen user is selecting all the mandatory fields.passed
+Then Click on Search button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating the Addactin hotel App" name="Validating the Select Hotel page" time="29.137372">
+<system-out><![CDATA[Given User is in the login page.............................................passed
+When Passing valid details in the login and search hotel screen.............passed
+And selecting the hotel in the screen.......................................passed
+Then Click on continue......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating the Addactin hotel App" name="Validating the personal details screen" time="32.9837">
+<system-out><![CDATA[Given user is in the login screen...........................................passed
+When user passing valid details.............................................passed
+Then user clicking on Book now..............................................passed
+And user should see.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
